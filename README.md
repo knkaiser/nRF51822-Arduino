@@ -49,9 +49,10 @@ This board package add-on also provides BLE API for the nRF51822 SoC to act as B
 2. Start the IDE and from the Menu, click "Preference...", add the following line to "Additional Boards Manager URLs"
  
 	https://redbearlab.github.io/arduino/package_redbearlab_index.json  
-  
+	  
 3. Install the "RedBearLab nRF51822 Boards" add-on via Boards Manager from the Menu: Tools -> Board -> Boards Manager ... 
 
+   Note: Make sure there is at least one ARM based Arduino board installed (e.g Arduino SAM Board) so that the arm gcc tools get installed.
 
 ## Install USB CDC (Serial) Driver (Windows only)
 
